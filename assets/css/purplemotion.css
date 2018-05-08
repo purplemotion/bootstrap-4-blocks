@@ -1,0 +1,81 @@
+/* Reset
+----------------------------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+/* Layout helpers
+----------------------------------*/
+
+.vh-100 {
+	height: 100vh;
+}
+
+.vw-100 {
+	width: 100vw;
+}
+
+.inner-wrapper {
+    max-width: 50%;
+}
+
+/* Typography
+----------------------------------*/
+
+.display-4 {
+    font-size: 3.815rem;
+
+}
+
+/* Overlays
+----------------------------------*/
+
+.olay-color:before {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #007bff;
+}
+
+.olay-color-2:before {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #00264e;
+}
+
+
+.olay-dark:before {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #000000;
+}
+
+.olay-light:before {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #ffffff;
+}
