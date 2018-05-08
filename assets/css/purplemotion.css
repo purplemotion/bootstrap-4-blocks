@@ -1,6 +1,12 @@
 /* Reset
 ----------------------------------*/
 
+body {
+	background: #C9D6FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -174,6 +180,77 @@
 	background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+.shadow-1 {
+	box-shadow: 0 2px 6px 0 hsla(0,0%,0%,0.2);
+}
 
 
 
+
+.card-body {
+  
+
+    padding: 3rem;
+    background: transparent;
+    z-index: 1;
+/*    box-shadow: 0 13px 18px 0 hsla(0,0%,0%,0.2);*/
+}
+/* Styles for Demo
+----------------------------------*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.blockquote-footer {
+    color: #ff00e7;
+}
+
+.bg-primary {
+    background-color: #007bff!important;
+    background: #bc4e9c;
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+}
+
+.card {
+	border: 0;
+	background-color: #fff;
+    border: none;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.card-img-top {
+    width: 100%;
+    -webkit-border-top-left-radius: .625rem;
+	-webkit-border-top-right-radius: .625rem;
+	-moz-border-radius-topleft: .625rem;
+	-moz-border-radius-topright: .625rem;
+	border-top-left-radius: .625rem;
+	border-top-right-radius: .625rem;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: 0;
+    border-radius: .625rem;
+    font-style: italic;
+
+}
+
+.card-columns .card {
+    margin-bottom: 1.25rem;
+}
+
+.demo-padder {
+	margin: 8rem 0;
+}
+
+p.card-text {
+    color: #6b757c;
+}
